@@ -1,0 +1,96 @@
+*  {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+    box-sizing: border-box;
+}
+
+/* universal */
+
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+/* form */
+
+.header {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+ 
+    
+    
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+/*header  */
+
+footer h4 {
+    padding: 30px;
+    /* clear: both; */
+    text-align: center;
+    font-size: 20px;
+}
+
+
+/* footer */
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+  
+    padding: 3px;
+    text-align: center;
+}
+
+/* image and caption */
+
+section { background-color: goldenrod;
+         text-align: center;
+    ;}
+
+    body{ 
+        background-color: #d9dcd6;
+    }
+
+    main{ background-color: tan ;}
