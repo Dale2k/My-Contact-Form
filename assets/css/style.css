@@ -61,28 +61,6 @@ footer h4 {
 
 /* footer */
 
-figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 220px;
-    margin: auto;
-}
-
-img {
-    max-width: 500px;
-    max-height: 500px;
-}
-
-figcaption {
-    background-color: #222;
-    color: #fff;
-  
-    padding: 3px;
-    text-align: center;
-}
-
 /* image and caption */
 
 section { background-color: goldenrod;
@@ -94,3 +72,9 @@ section { background-color: goldenrod;
     }
 
     main{ background-color: tan ;}
+
+figure {
+    text-align: center;
+}
+
+/* picture */
